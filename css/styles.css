@@ -1,0 +1,214 @@
+.box {
+    width: 100%;
+    height: 150px;
+}
+.logo {
+    max-width: 60%;
+    max-height: 60%;
+}
+.box1 {
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.box2 {
+    text-transform: uppercase;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+}
+.header-title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.little-margin {
+    margin: 1% 0%;
+}
+.box-title {
+    font-size: 40pt;
+    color: #2d3c49;
+}
+.box-subtitle {
+    font-size: 25pt;
+    color: #2d3c49;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2%;
+}
+.main-context::before {
+    border-top: 3px solid #3f87a6;
+    content: '';
+    display: block;
+    position: relative;
+    top: 5px;
+    width: 100%;
+}
+.main-context {
+    margin: 0%;
+}
+.portfolio_image {
+    width: 100%;
+    height: auto;
+    top: 10px;
+    position: relative;
+}
+.notes {
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-around;
+}
+.columns-project {
+    width: 100%;
+}
+.project-image {
+    width: 80%;
+    height: auto;
+    margin: 0 5%;
+}
+.caption-label {
+    text-align: center;
+    font-style: italic;
+}
+.projects {
+    font-size: 30pt;
+    color: #7d97ad;
+    margin: 3% 0%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.img-proj-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.align-feature {
+    justify-content: center;
+}
+.img-proj-screen {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    justify-self: center;
+}
+.label-project {
+    align-self: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.title-project {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.link-project {
+    font-style: italic;
+    font-size: 16px;
+}
+.img-proj-container-align {
+    display: flex;
+    align-items: center;
+}
+.order0 {
+    order: 0;
+}
+.order1 {
+    order: 1;
+}
+.order2 {
+    order: 2;
+}
+.order3 {
+    order: 3;
+}
+.order4 {
+    order: 4;
+}
+.order5 {
+    order: 5;
+}
+.order6 {
+    order: 6;
+}
+.order7 {
+    order: 7;
+}
+.order8 {
+    order: 8;
+}
+@media screen and (min-width: 580px) {
+    .box {
+        height: 200px;
+    }
+    .box1 {
+        width: 20%;
+    }
+    .box2 {
+        width: 80%;
+    }
+    .columns-project {
+        width: 33.333%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        max-width: 70%;
+        max-height: 70%;
+    }
+    .box1 {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .header-title {
+        display: grid;
+        align-self: center;
+        justify-content: flex-end;
+    }
+    .img-proj-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+    }
+    .align-feature {
+        justify-content: flex-start;
+    }
+    .img-proj-container-align {
+        align-items: end;
+    }
+    .order1 {
+        order: 3;
+    }
+    .order2 {
+        order: 6;
+    }
+    .order3 {
+        order: 1;
+    }
+    .order4 {
+        order: 4;
+    }
+    .order5 {
+        order: 7;
+    }
+    .order6 {
+        order: 2;
+    }
+    .order7 {
+        order: 5;
+    }
+}
